@@ -13,3 +13,8 @@ Scrappes different image source for pictures.
 2. `npm install` in repository dir
 3. node app.js
 4. (opt) STRG-C to abort scrapping process
+
+
+#### LICENSE
+
+This project is released under [DBAD](https://github.com/philsturgeon/dbad) License. ;-)
