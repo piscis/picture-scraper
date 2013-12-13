@@ -1,6 +1,6 @@
 path = require "path"
 async = require "async"
-Scrapper = require "./../lib/Scrapper/FacebookPictures"
+Scraper = require "./../lib/Scraper/FacebookPictures"
 
 storagePath = path.resolve "downloads"
 baseFBid = 100000425733973
@@ -10,8 +10,8 @@ q = async.queue((task, callback) ->
 
   if task.fbid
 
-    scrapper = new Scrapper(storagePath);
-    scrapper.download task.fbid,(err)->
+    scraper = new Scraper(storagePath);
+    scraper.download task.fbid,(err)->
       if !err
         console.log "Download done"
       else
