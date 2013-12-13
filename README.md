@@ -1,4 +1,8 @@
-scrape-fb-profile-pictures
-==========================
+Picture scrapper
+================
 
-Scrapes a Facebook profile pictures
+Scrappes different image source for pictures.
+
+### Supported sources
+
+* Facebook - Scrape facebook profiles and downloads profile pictures
