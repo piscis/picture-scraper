@@ -1,0 +1,33 @@
+{
+  "name": "picture-scrapper",
+  "version": "0.0.1",
+  "description": "Scrapes Facebook profile pictures",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piscis/picture-scrapper.git"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "async": "~0.2.7",
+    "request": "*",
+    "coffee-script": "*",
+    "mkdirp": "*"
+  },
+  "keywords": [
+    "Facebook",
+    "profile",
+    "pictures",
+    "scrape",
+    "grab"
+  ],
+  "author": "Alexander Pirsig <self@pirsig.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piscis/picture-scrapper/issues"
+  },
+  "homepage": "https://github.com/piscis/picture-scrapper"
+}
