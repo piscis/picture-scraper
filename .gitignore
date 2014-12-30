@@ -13,6 +13,10 @@ logs
 results
 .idea
 *.*~
+.DS_Store
+
+/*.box
+/.vagrant
 
 npm-debug.log
 node_modules

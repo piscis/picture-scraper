@@ -14,6 +14,11 @@ Scrap's different picture source.
 3. node app.js
 4. (opt) STRG-C to abort scraping process
 
+#### Use the vagrant image
+
+1. Execute `vagrant up`from base directory to download/start the VM
+2. When the VM is started use `vagrant ssh`to connect via SSH
+3. Go to /home/vagrant/picture-scraper and execute `npm install`to install package dependencies
 
 #### LICENSE
 

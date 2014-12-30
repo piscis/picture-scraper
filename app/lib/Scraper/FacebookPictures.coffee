@@ -36,7 +36,8 @@ class FacebookPictures
           fs.stat "#{filename}", (err, stats) =>
 
             # Ignore default pictures
-            if stats.size == 978 || stats.size == 1291
+            blackList = [0, 978, 1291, 2155, 2120]
+            if _.contains(blackList, stats.size)
               fs.unlink filename
               console.log "No profile image."
             else
